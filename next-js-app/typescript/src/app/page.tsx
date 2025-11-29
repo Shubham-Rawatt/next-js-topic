@@ -32,6 +32,19 @@
 // let isMale : boolean | string  = true
 
 
+'use client'
+import React, { useState } from 'react'
 
+const page = () => {
+    const [count , setCount] = useState<number>(0)
+  return (
+    <div>
+       <h1 className='text-5xl'>{count}</h1>
+       <button onClick={()=> setCount(count + 1)} className='border bg-amber-300 p-2 text-black rounded'>increase</button>
+    </div>
+  )
+}
+
+export default page
 
 
