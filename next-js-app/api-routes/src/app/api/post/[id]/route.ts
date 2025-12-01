@@ -16,7 +16,7 @@ export async function GET(req: NextRequest, { params }: paramsType) {
 
 
 /*
- -->     practice code api methods
+    -->     practice code api methods
 
 
      export async function GET() {
